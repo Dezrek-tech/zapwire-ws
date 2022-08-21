@@ -1,0 +1,2 @@
+[08-Aug-2022 23:14:26 UTC] PHP Parse error:  syntax error, unexpected '$app' (T_VARIABLE), expecting ')' in /home/esecurti/public_html/zapwire-ws/project/views/auth/unauthorized.php on line 9
+[08-Aug-2022 23:14:35 UTC] PHP Parse error:  syntax error, unexpected '$app' (T_VARIABLE), expecting ')' in /home/esecurti/public_html/zapwire-ws/project/views/auth/unauthorized.php on line 9

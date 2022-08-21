@@ -1,0 +1,173 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Zapwire-ws - Docs</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="scribbler-global.css">
+    <link rel="stylesheet" href="scribbler-doc.css">
+    <link rel="author" href="Ese Curtis .A.">
+    <!-- logo -->
+    
+    <!-- Favicon -->
+    <link rel="icon" href="https://zapwire.esecurtis.com//src/assets/images/z6.png"/>
+  </head>
+  <body>
+    <div class="doc__bg"></div>
+    <nav class="header">
+      <h1 class="logo">Zapwire <span class="logo__thin">Doc</span></h1>
+      <ul class="menu">
+        <div class="menu__item toggle"><span></span></div>
+        <li class="menu__item"><a href="#" class="link link--dark"><i class="fa fa-github"></i> Github</a></li>
+        <li class="menu__item"><a href="https://zapwire.escurtis.com" class="link link--dark"><i class="fa fa-home"></i> Home</a></li>
+      </ul>
+    </nav>
+    <div class="wrapper">
+      <aside class="doc__nav">
+        <ul>
+          <li class="js-btn selected">Get Started</li>
+          <li class="js-btn">Channeling</li>
+          <li class="js-btn">Wiring</li>
+          <li class="js-btn">Error Reporting</li>
+          <li class="js-btn">Misc</li>
+          <li class="js-btn">Issues</li>
+        </ul>
+      </aside>
+      <article class="doc__content">
+        <section class="js-section">
+          <h3 class="section__title">Get Started</h3>
+          <p>Learn how to create a channel in zapwire-ws using our easy to use client and serve your api live to your frontend (react application and others) in just matter of minutes.</p>
+          <div class="code__block code__block--notabs">
+            <!-- responsive image -->
+            <img width="100%" src="./assets/images/code--1.png" alt="">
+          </div>
+          <h3 class="section__title">Sign-up/Sign-in</h3>
+          <div class="code__block code__block--notabs">
+            <!-- responsive image -->
+            <p>
+              This is simple. You just need to sign-up and sign-in to your account. using your email and password.
+              you can create an account from the <a href="https://zapwire.esecurtis.com/sign-up">Signup Form</a>.
+            </p>
+          </div>
+        </section>
+        <section class="js-section">
+          <h3 class="section__title">Channeling</h3>
+          <p>
+            This is how zapwire manages websockets by channeling your apis live feed to your clientside using your channel_key which is assigned to you on sucessful channel creation.          </p>
+          <!-- <table id="customers">
+            <tr>
+              <th>Options</th>
+              <th>Value</th>
+              <th>Default</th>
+            </tr>
+            <tr>
+              <td>encryption</td>
+              <td>encrypt all notes before saving. If turned on, it requires password to open the file.</td>
+              <td>false</td>
+            </tr>
+            <tr>
+              <td>highlighting</td>
+              <td>Show syntax highlight on markdown text.</td>
+              <td>true</td>
+            </tr>
+            <tr>
+              <td>prettyTable</td>
+              <td>Render table with Scribbler’s pretty table style.</td>
+              <td>true</td>
+            </tr>
+          </table> -->
+          <img width="100%" src="./assets/images/form-1.png" alt="">
+          <p>From the above code we see there are three main fields for channel creation.</p>
+          <ul>
+            <li>Path</li>
+            <li>Authorized Hostnames</li>
+            <li>Headers</li>
+          </ul>
+
+          <p>
+            <p><b>Path:</b> is the url path that you want to use to create your channel. e.g (api endpoint)</p>
+            <pre><code>--pattern: [<i>https://myapi.com/api/v1</i>]</code></pre>
+            <p><b>Authorized hostnames:</b> is the list of hostnames that you want to allow to access your channel.</p>
+            <code>--pattern: [<i>hostname1, hostname2</i>] or a wildcard (*)</code>
+            <p><b>Headers:</b> is the list of headers that you want to allow to access your channel.</p>
+            <code>--pattern: [<i>header_index = header_value, ...</i>]</code>
+         </p>
+          <hr />
+        </section>
+        <section class="js-section">
+          <h3 class="section__title">Wiring/Wire code wizard</h3>
+          <p>This is the wizard for auto generating wire code for your respective channel.</p>
+          <img width="100%" src="./assets/images/form-2.png" alt="">
+          <p>From the image above we can see that there are three fields.</p>
+          <ul>
+            <li>Channel</li>
+            <li>Format</li>
+            <li>Wirespeed</li>
+          </ul>
+
+          <p>
+            <p><b>Channel:</b> This field provides an otion input from all your channels created for easy generation.</p>
+            <p><b>Format:</b> This field also provides you with an option for format of language of wiring.</p>
+            <p><b>Wirespeed:</b> Also known as the latency sets the speed in the wire config i.e the speed at which updates are sent to your wiring.</p>
+            <code>--pattern: [<i>Number or float >= 0.5</i>] measured in seconds</code>
+         </p>
+
+         <p>
+          <b>Note:</b>
+          For VannilaJs - Make sure the javascript file holding the wire code is a module
+          <br>
+          Just set the attribute of the script tag to (type="module")
+         </p>
+          <hr />
+        </section>
+        <section class="js-section">
+          <h3 class="section__title">Error Reporting</h3>
+          <p>Simply the breakdown of logs from all your websockets</p>
+          <p>You can see this from the homepage of your dashboard (overview).</p>
+          <img width="100%" src="./assets/images/overview.png" alt="">
+          <p>Due to space issue on our website we dump your logs every 7 days</p>
+        </section>
+        <section class="js-section">
+          <h3 class="section__title">Misc</h3>
+          <p>Extra Info on Zapwire ws</p>
+          <div>
+            <b>User Menu -</b>
+            <br>
+            <img src="./assets/images/btn-5.png" height="35px" alt="">
+            <p>
+              This is located at the top right, used for accesing features like darkmode and to logout
+            </p>
+          </div>
+
+          <div>
+            <b>User Notification -</b>
+            <br>
+            <img src="./assets/images/btn-4.png" height="35px" alt="">
+            <p>
+              You only get the green dot on this button when admin has a message for you.
+              <br>
+              Also located at the top right.
+            </p>
+          </div>
+
+          <div>
+            <b>User Settings -</b>
+            <br>
+            <img src="./assets/images/btn-9.png" height="35px" alt="">
+            <p>
+              Located at the bottom of the dashboard sidebar, used incase you want to disable account or change password of account
+            </p>
+          </div>
+        </section>
+      </article>
+    </div>
+
+    <footer class="footer">Built With <3 by Ese Curtis forked from Scribble Doc Template <a href="https://zapwire.esecurtis.com" target="_blank" class="link link--light">Zapwire-ws</a>.</footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="scribbler.js"></script>
+  </body>
+</html>

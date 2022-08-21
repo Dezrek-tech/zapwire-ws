@@ -1,0 +1,224 @@
+[28-Jul-2022 17:23:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_fetch_all() in /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php:14
+Stack trace:
+#0 /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php(5): AuthLink->read_all()
+#1 /home/esecurti/public_html/zapwire-ws/project/classes/Service.php(56): AuthLink->fetch_all()
+#2 /home/esecurti/public_html/zapwire-ws/project/classes/Service.php(89): Service->check_auth_links()
+#3 /home/esecurti/public_html/zapwire-ws/app.php(18): Service->start()
+#4 {main}
+  thrown in /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php on line 14
+[28-Jul-2022 17:23:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_fetch_all() in /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php:14
+Stack trace:
+#0 /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php(5): AuthLink->read_all()
+#1 /home/esecurti/public_html/zapwire-ws/project/classes/Service.php(56): AuthLink->fetch_all()
+#2 /home/esecurti/public_html/zapwire-ws/project/classes/Service.php(89): Service->check_auth_links()
+#3 /home/esecurti/public_html/zapwire-ws/app.php(18): Service->start()
+#4 {main}
+  thrown in /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php on line 14
+[28-Jul-2022 17:23:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_fetch_all() in /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php:14
+Stack trace:
+#0 /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php(5): AuthLink->read_all()
+#1 /home/esecurti/public_html/zapwire-ws/project/classes/Service.php(56): AuthLink->fetch_all()
+#2 /home/esecurti/public_html/zapwire-ws/project/classes/Service.php(89): Service->check_auth_links()
+#3 /home/esecurti/public_html/zapwire-ws/app.php(18): Service->start()
+#4 {main}
+  thrown in /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php on line 14
+[28-Jul-2022 17:23:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_fetch_all() in /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php:14
+Stack trace:
+#0 /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php(5): AuthLink->read_all()
+#1 /home/esecurti/public_html/zapwire-ws/project/classes/Service.php(56): AuthLink->fetch_all()
+#2 /home/esecurti/public_html/zapwire-ws/project/classes/Service.php(89): Service->check_auth_links()
+#3 /home/esecurti/public_html/zapwire-ws/app.php(18): Service->start()
+#4 {main}
+  thrown in /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php on line 14
+[28-Jul-2022 17:23:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_fetch_all() in /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php:14
+Stack trace:
+#0 /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php(5): AuthLink->read_all()
+#1 /home/esecurti/public_html/zapwire-ws/project/classes/Service.php(56): AuthLink->fetch_all()
+#2 /home/esecurti/public_html/zapwire-ws/project/classes/Service.php(89): Service->check_auth_links()
+#3 /home/esecurti/public_html/zapwire-ws/app.php(18): Service->start()
+#4 {main}
+  thrown in /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php on line 14
+[28-Jul-2022 17:23:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_fetch_all() in /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php:14
+Stack trace:
+#0 /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php(5): AuthLink->read_all()
+#1 /home/esecurti/public_html/zapwire-ws/project/classes/Service.php(56): AuthLink->fetch_all()
+#2 /home/esecurti/public_html/zapwire-ws/project/classes/Service.php(89): Service->check_auth_links()
+#3 /home/esecurti/public_html/zapwire-ws/app.php(18): Service->start()
+#4 {main}
+  thrown in /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php on line 14
+[28-Jul-2022 17:23:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_fetch_all() in /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php:14
+Stack trace:
+#0 /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php(5): AuthLink->read_all()
+#1 /home/esecurti/public_html/zapwire-ws/project/classes/Service.php(56): AuthLink->fetch_all()
+#2 /home/esecurti/public_html/zapwire-ws/project/classes/Service.php(89): Service->check_auth_links()
+#3 /home/esecurti/public_html/zapwire-ws/app.php(18): Service->start()
+#4 {main}
+  thrown in /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php on line 14
+[28-Jul-2022 17:23:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_fetch_all() in /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php:14
+Stack trace:
+#0 /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php(5): AuthLink->read_all()
+#1 /home/esecurti/public_html/zapwire-ws/project/classes/Service.php(56): AuthLink->fetch_all()
+#2 /home/esecurti/public_html/zapwire-ws/project/classes/Service.php(89): Service->check_auth_links()
+#3 /home/esecurti/public_html/zapwire-ws/app.php(18): Service->start()
+#4 {main}
+  thrown in /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php on line 14
+[28-Jul-2022 17:23:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_fetch_all() in /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php:14
+Stack trace:
+#0 /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php(5): AuthLink->read_all()
+#1 /home/esecurti/public_html/zapwire-ws/project/classes/Service.php(56): AuthLink->fetch_all()
+#2 /home/esecurti/public_html/zapwire-ws/project/classes/Service.php(89): Service->check_auth_links()
+#3 /home/esecurti/public_html/zapwire-ws/app.php(18): Service->start()
+#4 {main}
+  thrown in /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php on line 14
+[28-Jul-2022 17:23:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_fetch_all() in /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php:14
+Stack trace:
+#0 /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php(5): AuthLink->read_all()
+#1 /home/esecurti/public_html/zapwire-ws/project/classes/Service.php(56): AuthLink->fetch_all()
+#2 /home/esecurti/public_html/zapwire-ws/project/classes/Service.php(89): Service->check_auth_links()
+#3 /home/esecurti/public_html/zapwire-ws/app.php(18): Service->start()
+#4 {main}
+  thrown in /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php on line 14
+[28-Jul-2022 17:23:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_fetch_all() in /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php:14
+Stack trace:
+#0 /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php(5): AuthLink->read_all()
+#1 /home/esecurti/public_html/zapwire-ws/project/classes/Service.php(56): AuthLink->fetch_all()
+#2 /home/esecurti/public_html/zapwire-ws/project/classes/Service.php(89): Service->check_auth_links()
+#3 /home/esecurti/public_html/zapwire-ws/app.php(18): Service->start()
+#4 {main}
+  thrown in /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php on line 14
+[28-Jul-2022 17:23:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_fetch_all() in /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php:14
+Stack trace:
+#0 /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php(5): AuthLink->read_all()
+#1 /home/esecurti/public_html/zapwire-ws/project/classes/Service.php(56): AuthLink->fetch_all()
+#2 /home/esecurti/public_html/zapwire-ws/project/classes/Service.php(89): Service->check_auth_links()
+#3 /home/esecurti/public_html/zapwire-ws/app.php(18): Service->start()
+#4 {main}
+  thrown in /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php on line 14
+[28-Jul-2022 17:23:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_fetch_all() in /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php:14
+Stack trace:
+#0 /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php(5): AuthLink->read_all()
+#1 /home/esecurti/public_html/zapwire-ws/project/classes/Service.php(56): AuthLink->fetch_all()
+#2 /home/esecurti/public_html/zapwire-ws/project/classes/Service.php(89): Service->check_auth_links()
+#3 /home/esecurti/public_html/zapwire-ws/app.php(18): Service->start()
+#4 {main}
+  thrown in /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php on line 14
+[28-Jul-2022 17:23:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_fetch_all() in /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php:14
+Stack trace:
+#0 /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php(5): AuthLink->read_all()
+#1 /home/esecurti/public_html/zapwire-ws/project/classes/Service.php(56): AuthLink->fetch_all()
+#2 /home/esecurti/public_html/zapwire-ws/project/classes/Service.php(89): Service->check_auth_links()
+#3 /home/esecurti/public_html/zapwire-ws/app.php(18): Service->start()
+#4 {main}
+  thrown in /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php on line 14
+[28-Jul-2022 17:23:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_fetch_all() in /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php:14
+Stack trace:
+#0 /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php(5): AuthLink->read_all()
+#1 /home/esecurti/public_html/zapwire-ws/project/classes/Service.php(56): AuthLink->fetch_all()
+#2 /home/esecurti/public_html/zapwire-ws/project/classes/Service.php(89): Service->check_auth_links()
+#3 /home/esecurti/public_html/zapwire-ws/app.php(18): Service->start()
+#4 {main}
+  thrown in /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php on line 14
+[28-Jul-2022 17:23:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_fetch_all() in /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php:14
+Stack trace:
+#0 /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php(5): AuthLink->read_all()
+#1 /home/esecurti/public_html/zapwire-ws/project/classes/Service.php(56): AuthLink->fetch_all()
+#2 /home/esecurti/public_html/zapwire-ws/project/classes/Service.php(89): Service->check_auth_links()
+#3 /home/esecurti/public_html/zapwire-ws/app.php(18): Service->start()
+#4 {main}
+  thrown in /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php on line 14
+[28-Jul-2022 17:23:33 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_fetch_all() in /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php:14
+Stack trace:
+#0 /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php(5): AuthLink->read_all()
+#1 /home/esecurti/public_html/zapwire-ws/project/classes/Service.php(56): AuthLink->fetch_all()
+#2 /home/esecurti/public_html/zapwire-ws/project/classes/Service.php(89): Service->check_auth_links()
+#3 /home/esecurti/public_html/zapwire-ws/app.php(18): Service->start()
+#4 {main}
+  thrown in /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php on line 14
+[28-Jul-2022 17:23:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_fetch_all() in /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php:14
+Stack trace:
+#0 /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php(5): AuthLink->read_all()
+#1 /home/esecurti/public_html/zapwire-ws/project/classes/Service.php(56): AuthLink->fetch_all()
+#2 /home/esecurti/public_html/zapwire-ws/project/classes/Service.php(89): Service->check_auth_links()
+#3 /home/esecurti/public_html/zapwire-ws/app.php(18): Service->start()
+#4 {main}
+  thrown in /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php on line 14
+[28-Jul-2022 17:23:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_fetch_all() in /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php:14
+Stack trace:
+#0 /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php(5): AuthLink->read_all()
+#1 /home/esecurti/public_html/zapwire-ws/project/classes/Service.php(56): AuthLink->fetch_all()
+#2 /home/esecurti/public_html/zapwire-ws/project/classes/Service.php(89): Service->check_auth_links()
+#3 /home/esecurti/public_html/zapwire-ws/app.php(18): Service->start()
+#4 {main}
+  thrown in /home/esecurti/public_html/zapwire-ws/project/classes/AuthLink.php on line 14
+[28-Jul-2022 17:29:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 17:29:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 17:29:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 17:29:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 17:29:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 17:29:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 17:29:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 17:29:45 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 17:29:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 17:29:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_fetch_all() in /home/esecurti/public_html/zapwire-ws/project/classes/Report.php:147
+Stack trace:
+#0 /home/esecurti/public_html/zapwire-ws/project/props/dashboard/header.php(180): Report->get_unread_messages_count()
+#1 /home/esecurti/public_html/zapwire-ws/bin/php/amvc.classes.php(106): include('/home/esecurti/...')
+#2 /home/esecurti/public_html/zapwire-ws/project/views/dashboard/home.php(11): Render->prop('header', Array)
+#3 /home/esecurti/public_html/zapwire-ws/bin/php/amvc.classes.php(49): include('/home/esecurti/...')
+#4 /home/esecurti/public_html/zapwire-ws/bin/php/amvc.classes.php(68): Controller->render_view()
+#5 /home/esecurti/public_html/zapwire-ws/bin/php/amvc.main.php(258): Controller->execute()
+#6 /home/esecurti/public_html/zapwire-ws/app.php(15): AMVC->run()
+#7 {main}
+  thrown in /home/esecurti/public_html/zapwire-ws/project/classes/Report.php on line 147
+[28-Jul-2022 17:29:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 17:29:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 17:36:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 17:36:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 17:36:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 17:36:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 17:47:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 17:47:19 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 17:47:20 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 17:47:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 17:47:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 17:47:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 17:47:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 17:47:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 17:47:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 18:19:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 18:19:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 18:20:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 18:20:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 18:20:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 18:20:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 18:20:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 18:20:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 18:20:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 18:20:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 18:20:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 18:20:30 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 18:20:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 18:20:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 18:20:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 18:20:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 18:20:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 18:20:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 18:20:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 18:20:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 18:20:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 18:20:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 18:21:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 18:21:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 18:21:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 20:33:12 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 20:33:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 20:33:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 20:33:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 20:33:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 20:33:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 20:33:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 20:33:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 20:33:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 20:42:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 20:42:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
+[28-Jul-2022 20:42:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/esecurti/public_html/zapwire-ws/project/classes/Service.php on line 58
