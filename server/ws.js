@@ -14,12 +14,12 @@ const io = require("socket.io")(server, {
 
 const fetch = require('node-fetch');
 const axios = require('axios').default;
-const authKey = 'e5g7E7Y8w5'
+const authKey = process.env.api_authKey
 
 const amvc_api = `https://zapwire.esecurtis.com/src/amvc.api`
 
 app.get('/', (req, res) => {
-    res.send('Hello wrld');
+    res.send('Zapwire-Socket-Server');
 });
 
 io.on("connection", ws => {
