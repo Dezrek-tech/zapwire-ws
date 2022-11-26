@@ -43,7 +43,7 @@ io.on("connection", ws => {
         if (session_token.message[0] == false || !channel_data?.message) {
             ws.emit('error', 'Channel with this key does not exist')
             ws.disconnect()
-            send_log(channel_data.message[0].id, ws.handshake.headers.host, channel_data.message[0].ref_id, 6, 'Channel with this key does not exist, Session wasnt created')
+            return send_log(channel_data.message[0].id, ws.handshake.headers.host, channel_data.message[0].ref_id, 6, 'Channel with this key does not exist, Session wasnt created')
         
         } else {
             
@@ -61,7 +61,7 @@ io.on("connection", ws => {
             ws.emit('error', 'Channel with this key does not exist')
             ws.disconnect()
             send_log(channel_data.message[0].id, ws.handshake.headers.host, channel_data.message[0].ref_id, 6, 'Channel with this key does not exist, Session wasnt created')
-        
+            return 0
         }
         let channel_headers = convertToObject(channel_data.message[0].headers)
 
@@ -148,6 +148,7 @@ io.on("connection", ws => {
             ws.emit('error', 'Channel not found')
             ws.disconnect()
             error_encountered = true
+            return 0
         }
 
     })
