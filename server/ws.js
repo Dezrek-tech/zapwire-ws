@@ -40,7 +40,7 @@ io.on("connection", ws => {
         let session_token = await create_session(channel_key)
         let channel_data = await get_channel_data(session_token.message[0]);
 
-        if (session_token.message[0] == false) {
+        if (session_token.message[0] == false || !channel_data?.message) {
             ws.emit('error', 'Channel with this key does not exist')
             ws.disconnect()
             send_log(channel_data.message[0].id, ws.handshake.headers.host, channel_data.message[0].ref_id, 6, 'Channel with this key does not exist, Session wasnt created')
