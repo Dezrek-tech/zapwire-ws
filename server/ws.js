@@ -57,7 +57,7 @@ io.on("connection", ws => {
         current_session_token = session_token
         let checkForUpdateInterval = zapwire_config.refreshRate
         let channel_data = await get_channel_data(session_token);
-        if(!channel_data.message[0].header){  
+        if(!channel_data.message[0].headers){  
             ws.emit('error', 'Channel with this key does not exist')
             ws.disconnect()
             send_log(channel_data.message[0].id, ws.handshake.headers.host, channel_data.message[0].ref_id, 6, 'Channel with this key does not exist, Session wasnt created')
