@@ -57,6 +57,14 @@ io.on("connection", ws => {
         current_session_token = session_token
         let checkForUpdateInterval = zapwire_config.refreshRate
         let channel_data = await get_channel_data(session_token);
+        if(!channel_data.message[0]?.header){  
+          ws.emit('error', 'Not authorized')
+            console.log(ws.handshake.headers.host, '- Was Not authorized', accepted_hostnames)
+            ws.disconnect()
+            delete_session(session_token)
+            return send_log(channel_data.message[0].id, ws.handshake.headers.host, channel_data.message[0].ref_id, 3, "Un-Authorized CLient tried to access channel")
+
+        }
         let channel_headers = convertToObject(channel_data.message[0].headers)
 
         send_log(channel_data.message[0].id, ws.handshake.headers.host, channel_data.message[0].ref_id, 1, "Client Connected")
